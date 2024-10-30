@@ -1,0 +1,45 @@
+{
+  "name": "azure-iot",
+  "version": "1.0.0",
+  "description": "Azure IOT Verifica",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "**/*.test.ts",
+      "**/*.spec.ts",
+      "node_modules"
+    ],
+    "watch": [
+      "src"
+    ],
+    "exec": "npm start",
+    "ext": "ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zNlCO/Azuer-IoT.git"
+  },
+  "author": "Nicolò Paolini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zNlCO/Azuer-IoT/issues"
+  },
+  "homepage": "https://github.com/zNlCO/Azuer-IoT#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/morgan": "^1.9.9",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2"
+  }
+}
