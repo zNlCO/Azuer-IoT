@@ -31,9 +31,15 @@
   },
   "homepage": "https://github.com/zNlCO/Azuer-IoT#readme",
   "dependencies": {
+    "@azure/cosmos": "^4.1.1",
+    "azure-iot-device": "^1.18.3",
+    "azure-iot-device-mqtt": "^1.16.3",
+    "azure-iothub": "^1.16.5",
     "cors": "^2.8.5",
     "express": "^4.21.1",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "reflect-metadata": "^0.2.2",
+    "uuid": "^11.0.2"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
